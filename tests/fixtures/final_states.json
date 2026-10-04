@@ -62,7 +62,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -123,7 +127,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -184,7 +192,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -245,7 +257,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -306,7 +322,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -367,7 +387,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -428,7 +452,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -489,7 +517,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -550,7 +582,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -611,7 +647,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -672,7 +712,11 @@
             "contact_part": true
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -747,7 +791,11 @@
             "step": 140,
             "event": "poked_out"
           }
-        ]
+        ],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -808,7 +856,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -869,7 +921,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -930,7 +986,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -1005,7 +1065,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -1066,7 +1130,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -1127,7 +1195,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -1188,7 +1260,11 @@
             "contact_part": false
           }
         },
-        "history": []
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
       }
     },
     {
@@ -1244,7 +1320,783 @@
             "contact_part": false
           }
         },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 29.999999999999996,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "fail_report_omitted",
+      "expect": "fail",
+      "why": "P1: the episode ended with no report at all. A submission that does the whole physical task and says nothing about what it found has not done the task, which is recovering the installed state.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 21,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
         "history": []
+      }
+    },
+    {
+      "name": "fail_report_is_not_an_object",
+      "expect": "fail",
+      "why": "P1: `report` present but not an object. The host carries it verbatim, so the judge is the only place that can reject it — and it must reject it rather than crash on it, or the candidate's malformed answer is reported as an infrastructure failure.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 22,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": "normal"
+      }
+    },
+    {
+      "name": "fail_report_heading_a_quarter_turn_out",
+      "expect": "fail",
+      "why": "P3: 90 deg of error — a submission that reports a heading it plainly did not measure. Note what is NOT here: a row for 'reported the drawing instead of the cell'. The fixture geometry IS the drawing (30 deg), so that case cannot be built from it. It is guarded live instead, by the `nominal` negative in the end-to-end control group, which reports 30 against an installed 55 and fails P3 with 25 deg of error.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 23,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 120.0,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "fail_report_heading_just_outside",
+      "expect": "fail",
+      "why": "P3 boundary: 3.5 deg of error against a 3 deg tolerance. The guard on the threshold — raising the tolerance to make something else pass has to break this row.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 24,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 33.5,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "fail_report_heading_just_outside_negative",
+      "expect": "fail",
+      "why": "P3 boundary, the negative direction: 26.5 deg. A tolerance applied with one sign only would pass this row and look correct everywhere else.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 25,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 26.5,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "pass_report_heading_just_inside",
+      "expect": "pass",
+      "why": "P3 boundary, the other side: 2.5 deg against 3. Paired with the two rows above so the tolerance cannot silently move in either direction — lowering it to make something else fail has to break this row.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 26,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 32.5,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "pass_report_heading_flipped_end_for_end",
+      "expect": "pass",
+      "why": "P3: a disc has no front, so a heading turned end-for-end is the same orientation. 210 deg IS 30 deg here, and a judge comparing plain numbers would fail a correct answer. This is the row that pins the mod-180 comparison.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 27,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 210.0,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "fail_report_heading_not_a_number",
+      "expect": "fail",
+      "why": "P3: the heading is a string. A non-numeric report must fail as a gate, not raise — the difference between those two is a candidate failure and an infrastructure failure, so this row is graded and the classification matters as much as the verdict.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 28,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": "thirty",
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "fail_report_heading_not_finite",
+      "expect": "fail",
+      "why": "P3: a NaN heading. `math.isfinite` is the difference between rejecting this and letting NaN propagate through the error computation, where every comparison against it is False and the gate silently passes.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 29,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": NaN,
+          "cell": "normal"
+        }
+      }
+    },
+    {
+      "name": "fail_report_cell_is_the_other_fault",
+      "expect": "fail",
+      "why": "P2: on a normal cell, the submission reports a fault. A program that declines to act when it should have acted must not be able to name its way to credit.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 30,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 30.0,
+          "cell": "unusable_nest"
+        }
+      }
+    },
+    {
+      "name": "fail_report_cell_is_not_a_state",
+      "expect": "fail",
+      "why": "P2: `cell` is a value the judge does not define. Fails closed rather than being treated as a near miss — the three states are published, so there is no such thing as an almost-right one.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 31,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 30.0,
+          "cell": "mostly_fine"
+        }
+      }
+    },
+    {
+      "name": "fail_report_cell_is_missing",
+      "expect": "fail",
+      "why": "P2: the report carries a heading but no `cell` at all. Distinct from a wrong state: this is the shape a submission has when it measured the heading and never looked at the cell.",
+      "trace": {
+        "task": "as-installed-identification",
+        "seed": 32,
+        "episode": {
+          "terminated": "plan_complete",
+          "steps_used": 120,
+          "settle_steps": 30
+        },
+        "final": {
+          "part": {
+            "bbox_local_min": [
+              -0.012,
+              -0.012,
+              -0.001
+            ],
+            "bbox_local_max": [
+              0.012,
+              0.012,
+              0.001
+            ],
+            "pos": [
+              0.15,
+              -0.1,
+              0.007
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 0.012,
+              "half_height": 0.001
+            }
+          },
+          "socket": {
+            "pos": [
+              0.15,
+              -0.1,
+              0.0
+            ],
+            "quat_wxyz": [
+              0.9659258262890683,
+              0.0,
+              0.0,
+              0.25881904510252074
+            ]
+          },
+          "gripper": {
+            "contact_part": false
+          }
+        },
+        "history": [],
+        "report": {
+          "socket_heading_deg": 30.0
+        }
       }
     }
   ]
